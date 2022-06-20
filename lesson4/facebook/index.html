@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fscebook</title>
+    <style>
+        body{
+            background-color: rgba(240, 237, 237, 0.659);
+        }
+        .block-left { 
+            width: 55%;
+            height: 800px;
+            overflow: auto;
+            float: left;
+            align-items: center;
+        }
+        .block-right {
+            width: 45%;
+            height: 800px;
+            overflow: auto;
+        }
+        img{ 
+            margin-top: 15%;
+            padding-left: 25%;
+
+        }
+        h2{
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: left;
+            font-weight: lighter;
+        }
+        form{ 
+            margin: 10% 10% auto;
+            padding: 5%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 5px;
+            border: solid 1px rgba(208, 208, 208, 0.712);
+        }
+        input{
+            border: none;
+            border: 1px solid #bcd0e5;
+            height: 48px;
+          margin-top: 2%;
+          margin-bottom: 2%;
+          padding: 5px;
+          width: 100%;
+          border-radius: 4px;
+      }
+      input::placeholder{
+        color: #bcd0e5;
+        font-size: 16px;
+        line-height: 28px;
+      }
+      .logIn {
+          margin-top: 2%;
+          height: 48px;
+          border: none;
+          display: block;
+          padding: 6px;
+          width: 103%;
+          background-color: #0078F6;
+          color: white;
+          border-radius: 4px;
+          
+      }
+      a{ 
+          color: #0078F6;
+          text-decoration: none;
+          font-size: 14px;
+          margin-left: 40%;
+
+      }
+      hr {   
+         border-style: none;
+         border: 1px solid #bcd0e5;
+         margin-bottom: 2em;
+     }
+
+      
+      .newAccount {
+        border: none;
+          margin-left: 20%;
+          display: block;
+          padding: 5%;
+          width: 60%;
+          font-size: 16px;
+          background-color: rgb(54, 177, 54);
+          color: white;
+          border-radius: 5px;
+      }
+      
+      span{
+          font-weight: bold;
+      }
+      .bottom{
+          margin-left: 25%;
+          font-size: 14px;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="block-left">
+       <img src="imgs/Facebook-Logo.png" width="250px" alt="facebookLogo">
+       <h2>Facebook helps you connect and share with the people in your life.</h2>
+    </div>
+    <div class="block-right">
+    <form>
+        <input type="text" placeholder="Email address or phone number">
+    </br>
+        <input type="password" placeholder="Password" name="password">
+    </br>
+        <button class="logIn">Log In</button>
+        <p> <a href="">Forgotten password?</a></p>
+        <hr>
+        <button class="newAccount">Create New Account</button>
+    </form>
+    <div class="bottom">
+        <p>
+            <span>Create a Page </span>for a celebrity, brand or bussiness.
+        </p>
+    </div>
+</div>
+    
+
+</body>
+</html>
