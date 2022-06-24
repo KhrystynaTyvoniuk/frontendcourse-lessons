@@ -1,5 +1,5 @@
 body {
-    padding-left: 5vw;
+    padding-left: 145px;
     padding-right: 5vw;
 }
 .container {
@@ -129,7 +129,42 @@ button{
 .title {
     color: #2f281e;
 }
+.tools{
+    padding-top: 110px;
+}
 
+.tools__title{
+    text-align: center;
+    max-width: 539px;
+    margin: 0 auto 46px;
+    margin-bottom: 46px;
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 700;
+}
+.tools__item-title{
+font-family: Poppins;
+font-size: 22px;
+font-weight: 600;
+line-height: 33px;
+text-align: left;
+
+}
+.tools__items{
+    display: flex;
+    justify-content: space-between;
+}
+.tool__item{
+    max-width:240px ;
+    height: 148px;
+}
+.tool__item-icon1{
+    border: 1px solid #7752BE;
+    background-color: #7752BE;
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+}
 .footer__inner {
     padding: 102px 0 100px;
     border-top:1px solid #BCD0E57F;
@@ -140,6 +175,9 @@ button{
 .logo__img{
     width: 185px;
     height: 32px;
+}
+.footer{
+    margin-top: 200px;
 }
 .footer__menu {
     margin-top: -45px;
