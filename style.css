@@ -288,7 +288,7 @@ label{
 }
 
 .inp__special:focus {
-        border-color: #FF7F57 
+        border-color: #FF7F57;
      
 }
 .long{
@@ -310,6 +310,9 @@ label{
     color: #fff;
     font-family: 'Roboto Condensed', sans-serif;
 }
+.input:hover{
+ cursor: pointer;
+}
 .copyright{
     height: 47px ;
     background-color: #13253A;
@@ -323,4 +326,12 @@ label{
     font-size: 12px;
     font-weight: 300;
     line-height: 16px;
+}
+input, select, textarea{
+    color: #fff;
+}
+
+textarea:focus, input:focus {
+    color: #fff;
+    opacity: 1;
 }
