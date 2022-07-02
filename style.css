@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.top{
+    width: 100vw;
+    background-image: url("bg 3.sbg");
+}
+.header{
+    padding-top: 42px ;
+    width: 100%;
+}
+.header__menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
