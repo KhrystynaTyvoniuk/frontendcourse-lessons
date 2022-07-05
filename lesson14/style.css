@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+.squid__game{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.squid-game__nav{
+    display: grid;
+    grid-template-columns: 20% 40% 10%;
+    grid-column-gap: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 30px;
+    justify-items: center;
+    align-items: center;
+}
+.squid-game__nav img:last-child{
+    justify-self: start;
+}
+.squid-game__nav img:last-child{
+    justify-self: end;
+}
+.squid-game__main{
+    height: 75vh;
+    background-image: url('imgs/bg.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: 40% 35%;
+}
+.sg__main-title{
+    color: linear-gradient(265.95deg, #FFFFFF -15.55%, #E93E7D 123.26%);
+}
+.sg__main-text{
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
