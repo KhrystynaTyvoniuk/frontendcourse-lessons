@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.fruits {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 3%;
+}
+
+.fruits-row {
+    height: 300px;
+    text-align: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 5%;
+}
+
+.fruits__card {
+    text-align: center;
+    float: left;
+    margin-left: 20px;
+    height: 350px;
+    width: 15%;
+    box-shadow: 5px  5px 10px rgb(154, 154, 245), 10px 10px 8px rgb(186, 129, 129), 15px 15px 8px rgb(112, 203, 112);
+}
+
+.fruits__card-img {
+    width: 100%;
+}
