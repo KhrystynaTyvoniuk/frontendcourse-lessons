@@ -163,13 +163,40 @@ text-align: left;
     max-width:240px ;
     height: 148px;
 }
-.tool__item-icon1{
-    border: 1px solid #7752BE;
-    background-color: #7752BE;
+.fa-arrow-pointer{
     color: white;
-    padding: 25px;
-    border-radius: 20px;
+    border: 1px solid rgb(58, 17, 58);
+    padding: 20px 25px;
+     background-color: rgb(73, 19, 73);
+     border-radius: 20px;
+     box-shadow: 3px 10px 5px rgb(63, 38, 63);
 }
+.fa-check-double{
+    color: white;
+    border: 1px solid rgb(201, 174, 53);
+    padding: 20px 25px;
+     background-color: rgb(201, 174, 53);
+     border-radius: 20px;
+     box-shadow: 3px 10px 5px rgb(75, 65, 19);
+
+}
+.fa-heart{
+    color: white;
+    border: 1px solid rgb(147, 34, 34);
+    padding: 20px 23px;
+     background-color: rgb(147, 34, 34);
+     border-radius: 20px;
+     box-shadow: 3px 10px 5px rgb(62, 14, 14);
+}
+.fa-hourglass{
+    color: white;
+    border: 1px solid rgb(39, 83, 177);
+    padding: 20px 25px;
+     background-color: rgb(39, 83, 177);
+     border-radius: 20px;
+     box-shadow: 3px 10px 5px rgb(13, 29, 64);
+}
+
 .footer__inner {
     padding: 102px 0 100px;
     border-top:1px solid #BCD0E57F;
