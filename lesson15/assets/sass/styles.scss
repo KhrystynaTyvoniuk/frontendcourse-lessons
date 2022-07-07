@@ -1,0 +1,36 @@
+ @import './constants.scss';
+
+ 
+body { 
+    margin: 0;
+    
+}
+.container{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+ .shield {
+    width: 80vw;
+    height: 80vh;
+
+
+    &-nav{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      
+        &__menu-list{
+            display: flex;
+            width: 100%;
+            list-style: none;
+            justify-content: space-between;
+        }
+
+    }
+    &-btn{ 
+        background-color: $secondry;
+        color: $white;
+    }
+
+ }
