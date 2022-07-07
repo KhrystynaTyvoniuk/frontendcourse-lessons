@@ -126,6 +126,11 @@ button{
     line-height: 24px;
     cursor: pointer;
 }
+.fa-play{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FF9900;
+}
 .title {
     color: #2f281e;
 }
